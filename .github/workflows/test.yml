@@ -10,8 +10,8 @@ jobs:
         # Install dependencies and build the app.
       - name: Install nodejs
         uses: actions/setup-node@v3
-          with: 
-            node-version: 18
+        with: 
+          node-version: 18
       - name: Install dependencies
         uses: npm ci
       - name: Run tests
